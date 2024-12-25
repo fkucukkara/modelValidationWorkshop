@@ -1,0 +1,15 @@
+@MinimalAPI_HostAddress = http://localhost:5293
+
+### Get All
+GET {{MinimalAPI_HostAddress}}/employee
+Accept: application/json
+
+### Post --invalid body
+POST {{MinimalAPI_HostAddress}}/employee
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "name": "Alice"
+}

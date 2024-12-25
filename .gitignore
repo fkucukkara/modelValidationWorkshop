@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ModelValidationWorkshop
+/API/bin/Debug/net9.0
+/API/obj
+/MinimalAPI/bin/Debug/net9.0
+/MinimalAPI/obj

@@ -1,0 +1,15 @@
+@API_HostAddress = http://localhost:5181
+
+### Get All
+GET {{API_HostAddress}}/employee
+Accept: application/json
+
+### Post --invalid body
+POST {{API_HostAddress}}/employee
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "name": "Alice"
+}
